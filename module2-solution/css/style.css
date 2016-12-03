@@ -19,6 +19,17 @@ h1 {
   width: 100%;
 }
 
+.container {
+  border: 1px solid black;
+  background-color: #A8A8A8;
+  color: black;
+  margin-top: 20px;
+  margin-bottom: 0;
+  margin-right: 20px;
+  margin-left: 20px;
+  position: relative;
+}
+
 .title {
   border: 1px solid black;
   font-size: 125%;
@@ -43,18 +54,6 @@ h1 {
 .title#t3 {
   background-color: #6BBCFA;
   color: black;
-}
-
-.container {
-  border: 1px solid black;
-  background-color: #A8A8A8;
-  color: black;
-  margin-top: 20px;
-  margin-bottom: 0;
-  margin-right: 20px;
-  margin-left: 20px;
-  position: relative;
-  clear:right;
 }
 
 .text {
