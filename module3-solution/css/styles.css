@@ -106,12 +106,12 @@ header .container {
 .container .row {
   background-color: #105B95;
   color: white;
-  width: 98%;
+  width: 94%;
   position: absolute;
   left: 0;
   margin 0 0 0 0;
-  margin-left: 1%;
-  margin-right: 1%;
+  margin-left: 3%;
+  margin-right: 3%;
   margin-bottom: 30px;
 }
 
