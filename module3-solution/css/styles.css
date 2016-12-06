@@ -38,20 +38,33 @@ header .container {
   line-height: .75;
 }
 
-#nav-list {
-  /*padding-bottom: 7px;*/
-  /*margin: 0 0 0 0;*/
+@media (max-width: 767px) {
+  #collapsable-nav {
+    background-color: #006666;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+  }
+}
+
+#collapsable-nav hr {
+  background-color: black; 
+  border: 0;
+  height: 2px;
+  margin-top: 40px;
+  margin-left: 0.5%;
+  width: 99%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 #nav-list a {
-  color: #951C49;
+  color: white;
+  font-weight: bold;
   font-size: 1.2em;
   padding-top: 10px;
-  /*margin: 0 0 0 0;*/
 }
-/*#nav-list a:hover {
-  background: #E7E7E7;
-}*/
 
 .navbar-header {
   margin: 5px 0 10px 0;
@@ -71,28 +84,6 @@ header .container {
   margin: 0 0 0 0;
 }
 
-#collapsable-nav li {
-/*  position: relative;*/
-}
-
-#collapsable-nav hr {
-  background-color: black; 
-  border: 0;
-  height: 2px;
-  margin-top: 40px;
-  margin-left: 0.5%;
-  width: 99%;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-#collapsable-nav {
-  background-color: gray;
-  border-top: 2px solid black;
-  border-left: 2px solid black;
-  border-right: 2px solid black;
-}
 /** END HEADER **/
 
 /** MAIN **/
